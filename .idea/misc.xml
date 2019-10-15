@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/gmall-manage-service" />
-    <file type="web" url="file://$PROJECT_DIR$/gmall-manage-util" />
-  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -11,19 +7,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/demo01/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-user/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-api/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-common-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-manage-web/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-service-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-web-util/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-user/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/gmall-user-web/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-manage-web/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-manage-util/pom.xml" />
-        <option value="$PROJECT_DIR$/gmall-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-web-util/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

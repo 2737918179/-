@@ -12,6 +12,7 @@
     <groupId>com.atguigu.gmall</groupId>
     <artifactId>gmall-common-util</artifactId>
     <version>1.0-SNAPSHOT</version>
+
     <dependencies>
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -78,6 +79,7 @@
             <groupId>com.gitee.reger</groupId>
             <artifactId>spring-boot-starter-dubbo</artifactId>
         </dependency>
+
 
     </dependencies>
 

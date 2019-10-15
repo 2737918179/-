@@ -19,12 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="demo" target="1.8" />
       <module name="demo01" target="1.8" />
       <module name="gmall-api" target="1.5" />
       <module name="gmall-common-util" target="1.8" />
       <module name="gmall-manage-service" target="1.8" />
-      <module name="gmall-manage-service2" target="1.8" />
       <module name="gmall-manage-web" target="1.8" />
       <module name="gmall-parent" target="1.8" />
       <module name="gmall-service-util" target="1.8" />
@@ -32,7 +30,6 @@
       <module name="gmall-user-service" target="1.8" />
       <module name="gmall-user-web" target="1.8" />
       <module name="gmall-web-util" target="1.8" />
-      <module name="gmall-web-util (1) (com.example)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
