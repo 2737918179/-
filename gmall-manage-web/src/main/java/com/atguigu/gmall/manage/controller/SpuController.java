@@ -2,6 +2,7 @@ package com.atguigu.gmall.manage.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.atguigu.gmall.bean.PmsProductInfo;
+import com.atguigu.gmall.manage.util.PmsUploadUtil;
 import com.atguigu.gmall.service.SpuService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -22,7 +23,8 @@ public class SpuController {
         // 将图片或者音视频上传到分布式的文件存储系统
 
         // 将图片的存储路径返回给页面
-        String imgUrl = "https://m.360buyimg.com/babel/jfs/t5137/20/1794970752/352145/d56e4e94/591417dcN4fe5ef33.jpg";
+        String imgUrl=PmsUploadUtil.uploadImage(multipartFile);
+        System.out.println(imgUrl);
 
         return imgUrl;
     }
