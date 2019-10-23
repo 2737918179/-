@@ -1,5 +1,7 @@
 package com.atguigu.gmall.bean;
 
+import com.atguigu.gmall.bean.PmsBaseCatalog2;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.List;
