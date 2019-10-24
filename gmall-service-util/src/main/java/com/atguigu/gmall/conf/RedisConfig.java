@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class RedisConfig {
     //读取配置文件中的redis的ip地址
-    @Value("${spring.redis.host:disabled}")
+    @Value("192.168.43.51")
     private String host;
     @Value("${spring.redis.port:0}")
     private int port ;
